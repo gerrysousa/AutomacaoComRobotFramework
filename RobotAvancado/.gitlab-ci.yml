@@ -30,7 +30,7 @@ WEB Testing in Chrome:
 # Job Docker - execução dos testes em container Docker
 WEB Testing in Chrome and Docker:
     stage: Acceptance Tests
-    image: COLOQUE AQUI O LINK DA SUA IMAGEM
+    image: registry.gitlab.com/ci_projects1/dockerimages:latest
     tags:
         - docker
     artifacts:
